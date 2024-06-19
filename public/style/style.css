@@ -3,12 +3,24 @@
     padding: 10px;
 }
 
-.navbar a {
-    color: #333;
-    text-decoration: none;
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
     margin-right: 10px;
 }
 
-.navbar a:hover {
-    color: #000;
+.navbar-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+.navbar-link:hover {
+    background-color: #ddd;
 }
